@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endterm</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>Art Gallery</h1>
+    </div>
+    <ul>
+        <div>
+            <li class="this"> <a href="index.html">Home</a></li>
+            <li> <a href="resource.html">Resource</a></li>
+            <li> <a href="form.html">Form</a></li>
+        </div>
+    </ul>
+</header>
+    <div>
+    <select id="gallery-dropdown" name="Gallery">
+    </select>
+    </div>
+<div id="first" class="container">
+    <div class="carousel slide" id="carousel" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <img id="img" src="https://i.pinimg.com/564x/46/6f/f4/466ff486e60d423a84f6ad7de572a1f2.jpg" />
+                <div class="carousel-caption">
+                    <h2>Everything you can imagine is real</h2>
+                </div>
+            </div>
+
+            <div class="item">
+                <img id="img" src="https://i.pinimg.com/564x/46/6f/f4/466ff486e60d423a84f6ad7de572a1f2.jpg" />
+                <div class="carousel-caption">
+                    <h2>You must have chaos within you to give birth to a dancing star.</h2>
+                </div>
+            </div>
+
+            <div class="item">
+                <img id="img" src="https://i.pinimg.com/564x/46/6f/f4/466ff486e60d423a84f6ad7de572a1f2.jpg" />
+                <div class="carousel-caption">
+                    <h2>It is good to love many things, for therein lies the true strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is well done.</h2>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <img id="img" src="https://i.pinimg.com/564x/46/6f/f4/466ff486e60d423a84f6ad7de572a1f2.jpg" />
+                <div class="carousel-caption">
+                    <h2>Art is the lie that enables us to realize the truth</h2>
+                </div>
+            </div>
+        </div>
+
+        <a href="#carousel" class="left carousel-control" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousel" class="right carousel-control" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<script defer src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+/*Resource*/
+body {
+    background-image: url('https://www.lightlive.com/fileadmin/_processed_/csm_CFA_Gallery_Georg_Baselitz_1_2260d3cddf.jpg');
+    margin: 0%;
+    background-size: cover;
+}
+.logo h1{
+    margin: 5px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    width: 200px;
+    height: auto;
+    color: #000000;
+
+}
+.logo{
+    max-width: 1200px;
+    margin:auto;
+}
+
+ul{
+    float: right;
+    margin-top: 25px;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    border: 1px  solid white;
+    color: black;
+    padding: 5px 20px;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+ul li.this a{
+    background-color: black;
+    color: #ffffff;
+}
+.tab{
+    margin-top: 60px;
+    overflow: hidden;
+    border: #000000 1px;
+    background-color: #f0f0f0;
+}
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: white;
+    font: 600 16px Lato, sans-serif;
+}
+.tab button:hover{
+    background-color: #f0f0f0;
+}
+.tab button:active{
+    background-color:#f0f0f0 ;
+}
+
+.tab-content{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+    border-top: none;
+}
+.button1{
+    background-color:#C4F1E4;
+    cursor: pointer;
+    padding: 18px;
+    width: 300px;
+    height: 28px;
+    text-align: left;
+    transition: 0.4s;
+    border: 2px white solid;
+    font-size: 20px;
+}
+.panels{
+    padding: 0px 16px;
+    border: none;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+p{
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+}
+.info{
+    margin-top: 100px;
+    color: white;
+    align-items: center;
+}
+
+.my-5 {
+    background-color: white;
+    opacity: 80%;
+}
